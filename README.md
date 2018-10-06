@@ -1,6 +1,6 @@
 # This is a demo project for gba game hacking in C.
 
-## Build in ARM DS-5 Ultimate Edition v5.26.0.
+## Build in ARM DS-5 Ultimate Edition v5.26.0 and ARM Compiler 5.
 You are free to code in C/Assembly.
 
 ## 2 ways of source level debugging:
