@@ -1,0 +1,21 @@
+LOAD_ROM 0x8000000
+{
+	EXEC_ROM 0x8000000
+	{
+		rom.o(ROM)
+	}
+}
+LOAD_HACK 0x8000AF4
+{
+	EXEC_AT_8000AF4 0x8000AF4
+	{
+		*(AT_8000AF4)
+	}
+}
+LOAD_RO 0x9000000
+{
+	ER_RO 0x9000000
+	{
+		*(+RO)
+	}
+}

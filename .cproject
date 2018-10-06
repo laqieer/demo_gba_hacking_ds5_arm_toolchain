@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.arm.eclipse.build.config.baremetal.exe.debug.1387617556">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.arm.eclipse.build.config.baremetal.exe.debug.1387617556" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.arm.eclipse.builder.armcc.error" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="axf" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="clean" description="" id="com.arm.eclipse.build.config.baremetal.exe.debug.1387617556" name="Debug" parent="com.arm.eclipse.build.config.baremetal.exe.debug" postbuildStep="arm-none-eabi-objcopy -O binary demo.axf rom.bin">
+					<folderInfo id="com.arm.eclipse.build.config.baremetal.exe.debug.1387617556." name="/" resourcePath="">
+						<toolChain id="com.arm.toolchain.baremetal.exe.debug.519806701" name="ARM Compiler 5 (DS-5 built-in)" nonInternalBuilderId="com.arm.toolchain.baremetal.builder" superClass="com.arm.toolchain.baremetal.exe.debug">
+							<option id="com.arm.toolchain.ac5.option.target.cpu_fpu.555011457" superClass="com.arm.toolchain.ac5.option.target.cpu_fpu" value="ARM7TDMI.NoFPU" valueType="string"/>
+							<option id="com.arm.toolchain.ac5.option.inst.935665036" name="Instruction set" superClass="com.arm.toolchain.ac5.option.inst" value="com.arm.tool.c.compiler.option.inst.thumb" valueType="enumerated"/>
+							<option id="com.arm.toolchain.ac5.option.endian.993034764" name="Byte order" superClass="com.arm.toolchain.ac5.option.endian" value="com.arm.tool.c.compiler.option.endian.little" valueType="enumerated"/>
+							<option id="com.arm.toolchain.ac5.option.inter.189807458" name="Interworking" superClass="com.arm.toolchain.ac5.option.inter" value="true" valueType="boolean"/>
+							<targetPlatform id="com.arm.eclipse.build.config.baremetal.exe.debug.1387617556..1517156807" name=""/>
+							<builder autoBuildTarget="all" buildPath="${workspace_loc:/demo}/Debug" cleanBuildTarget="clean" id="org.eclipse.cdt.build.core.internal.builder.389168766" incrementalBuildTarget="all" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="org.eclipse.cdt.build.core.internal.builder"/>
+							<tool id="com.arm.tool.c.compiler.baremetal.exe.debug.1042476290" name="ARM C Compiler 5" superClass="com.arm.tool.c.compiler.baremetal.exe.debug">
+								<option defaultValue="com.arm.tool.c.compiler.option.optlevel.min" id="com.arm.tool.c.compiler.baremetal.exe.debug.base.option.opt.823641765" name="Optimization level" superClass="com.arm.tool.c.compiler.baremetal.exe.debug.base.option.opt" useByScannerDiscovery="true" value="com.arm.tool.c.compiler.option.optlevel.high" valueType="enumerated"/>
+								<option id="com.arm.tool.c.compiler.option.targetcpu.753693134" name="Target CPU (--cpu)" superClass="com.arm.tool.c.compiler.option.targetcpu" useByScannerDiscovery="true" value="ARM7TDMI" valueType="string"/>
+								<option id="com.arm.tool.c.compiler.option.inst.1203761577" name="Instruction set" superClass="com.arm.tool.c.compiler.option.inst" useByScannerDiscovery="true" value="com.arm.tool.c.compiler.option.inst.thumb" valueType="enumerated"/>
+								<option id="com.arm.tool.c.compiler.option.endian.195021406" name="Byte order" superClass="com.arm.tool.c.compiler.option.endian" useByScannerDiscovery="true" value="com.arm.tool.c.compiler.option.endian.little" valueType="enumerated"/>
+								<option id="com.arm.tool.c.compiler.option.inter.1455235514" name="Interworking (--apcs=/interwork)" superClass="com.arm.tool.c.compiler.option.inter" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+								<option id="com.arm.tool.c.compiler.option.optfor.1129250376" name="Optimize for" superClass="com.arm.tool.c.compiler.option.optfor" useByScannerDiscovery="true" value="com.arm.tool.c.compiler.option.optfor.auto" valueType="enumerated"/>
+								<inputType id="com.arm.tool.c.compiler.input.371751609" superClass="com.arm.tool.c.compiler.input"/>
+								<inputType id="com.arm.tool.cpp.compiler.input.694360595" superClass="com.arm.tool.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.arm.tool.cpp.compiler.baremetal.exe.debug.867409040" name="ARM C++ Compiler 5" superClass="com.arm.tool.cpp.compiler.baremetal.exe.debug">
+								<option defaultValue="com.arm.tool.c.compiler.option.optlevel.min" id="com.arm.tool.cpp.compiler.baremetal.exe.debug.base.option.opt.68004750" name="Optimization level" superClass="com.arm.tool.cpp.compiler.baremetal.exe.debug.base.option.opt" valueType="enumerated"/>
+							</tool>
+							<tool id="com.arm.tool.assembler.929659839" name="ARM Assembler 5" superClass="com.arm.tool.assembler">
+								<option id="com.arm.tool.assembler.option.cpu.6967228" name="Target CPU (--cpu)" superClass="com.arm.tool.assembler.option.cpu" value="ARM7TDMI" valueType="string"/>
+								<option id="com.arm.tool.assembler.option.inst.1873498915" name="Instruction set" superClass="com.arm.tool.assembler.option.inst" value="com.arm.tool.c.compiler.option.inst.thumb" valueType="enumerated"/>
+								<option id="com.arm.tool.assembler.option.endian.1235226969" name="Byte order" superClass="com.arm.tool.assembler.option.endian" value="com.arm.tool.c.compiler.option.endian.little" valueType="enumerated"/>
+								<option id="com.arm.tool.assembler.option.inter.1430583653" name="Interworking (--apcs=/interwork)" superClass="com.arm.tool.assembler.option.inter" value="true" valueType="boolean"/>
+								<inputType id="com.arm.tool.assembler.input.1999846998" superClass="com.arm.tool.assembler.input"/>
+							</tool>
+							<tool id="com.arm.tool.c.linker.322157352" name="ARM Linker 5" superClass="com.arm.tool.c.linker">
+								<option id="com.arm.tool.c.linker.option.cpu.567746764" name="Target CPU (--cpu)" superClass="com.arm.tool.c.linker.option.cpu" value="ARM7TDMI" valueType="string"/>
+								<option id="com.arm.tool.c.linker.option.robase.1513176199" name="RO base address (--ro_base)" superClass="com.arm.tool.c.linker.option.robase" value="" valueType="string"/>
+								<option id="com.arm.tool.c.linker.option.warn.576278600" name="Warning severity (--diag_warning)" superClass="com.arm.tool.c.linker.option.warn" value="L6221" valueType="string"/>
+								<option id="com.arm.tool.c.linker.option.scatter.731292892" name="Scatter file (--scatter)" superClass="com.arm.tool.c.linker.option.scatter" value="E:\Documents\DS-5 Workspace\demo_gba_hacking_ds5_arm_toolchain\scatter.scat" valueType="string"/>
+							</tool>
+							<tool id="com.arm.tool.librarian.1682064546" name="ARM Librarian 5" superClass="com.arm.tool.librarian"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.arm.eclipse.build.config.baremetal.exe.release.869207189">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.arm.eclipse.build.config.baremetal.exe.release.869207189" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.arm.eclipse.builder.armcc.error" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="axf" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="clean" description="" id="com.arm.eclipse.build.config.baremetal.exe.release.869207189" name="Release" parent="com.arm.eclipse.build.config.baremetal.exe.release">
+					<folderInfo id="com.arm.eclipse.build.config.baremetal.exe.release.869207189." name="/" resourcePath="">
+						<toolChain id="com.arm.toolchain.baremetal.exe.release.1035218918" name="ARM Compiler 5 (DS-5 built-in)" superClass="com.arm.toolchain.baremetal.exe.release">
+							<targetPlatform id="com.arm.eclipse.build.config.baremetal.exe.release.869207189..1010551777" name=""/>
+							<builder buildPath="${workspace_loc:/demo}/Release" id="com.arm.toolchain.baremetal.builder.1925983647" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="com.arm.toolchain.baremetal.builder"/>
+							<tool id="com.arm.tool.c.compiler.baremetal.exe.release.1007205694" name="ARM C Compiler 5" superClass="com.arm.tool.c.compiler.baremetal.exe.release">
+								<option defaultValue="com.arm.tool.c.compiler.option.optlevel.high" id="com.arm.tool.c.compiler.baremetal.exe.release.base.option.opt.1200096198" name="Optimization level" superClass="com.arm.tool.c.compiler.baremetal.exe.release.base.option.opt" useByScannerDiscovery="true" valueType="enumerated"/>
+								<inputType id="com.arm.tool.c.compiler.input.1145478123" superClass="com.arm.tool.c.compiler.input"/>
+								<inputType id="com.arm.tool.cpp.compiler.input.1208384624" superClass="com.arm.tool.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.arm.tool.cpp.compiler.baremetal.exe.release.1513503709" name="ARM C++ Compiler 5" superClass="com.arm.tool.cpp.compiler.baremetal.exe.release">
+								<option defaultValue="com.arm.tool.c.compiler.option.optlevel.high" id="com.arm.tool.cpp.compiler.baremetal.exe.release.base.option.opt.545631628" name="Optimization level" superClass="com.arm.tool.cpp.compiler.baremetal.exe.release.base.option.opt" valueType="enumerated"/>
+							</tool>
+							<tool id="com.arm.tool.assembler.1806482886" name="ARM Assembler 5" superClass="com.arm.tool.assembler">
+								<inputType id="com.arm.tool.assembler.input.661490548" superClass="com.arm.tool.assembler.input"/>
+							</tool>
+							<tool id="com.arm.tool.c.linker.1536026880" name="ARM Linker 5" superClass="com.arm.tool.c.linker"/>
+							<tool id="com.arm.tool.librarian.841566863" name="ARM Librarian 5" superClass="com.arm.tool.librarian"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="demo.com.arm.eclipse.build.project.baremetal.exe.528639598" name="Executable" projectType="com.arm.eclipse.build.project.baremetal.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/demo"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/demo"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="com.arm.projectSettings" version="5.25"/>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cproject>

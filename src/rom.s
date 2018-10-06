@@ -1,0 +1,5 @@
+	AREA ROM, CODE, READONLY
+	EXPORT _start
+_start
+	INCBIN D:\FE_kaizou2\FE7CNLOL\rom\FE7(CN).gba
+	END
