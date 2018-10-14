@@ -10,7 +10,7 @@
 
 void sub_8000AF4(short *buffer)
 {
-	((void(*)(short*,char*))0x8004E4C)(buffer, "Tiki's demo");
+	((void(*)(short*,char*))0x8004E4D)(buffer, "Tiki's demo");
 }
 
 #pragma arm section code = "AT_8000AF4"
