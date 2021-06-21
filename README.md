@@ -10,4 +10,4 @@ You are free to code in C/Assembly.
 ![debug with NO$GBA](https://github.com/laqieer/demo_gba_hacking_ds5_arm_toolchain/raw/master/img/debug_with_nogba.png)
 
 ## Video Tutorial:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/q1YpRPfWung" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+https://youtu.be/q1YpRPfWung
